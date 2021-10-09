@@ -40,10 +40,16 @@ body {
 
 body {
     min-height: 100vh;
-    background: url("../images/bg-intro-desktop.png") center/cover, linear-gradient(rgb(255, 121, 121), rgb(255, 121, 121));
+    background: url("../images/bg-intro-desktop.png") center/cover, linear-gradient(rgb(255, 121, 121), rgb(255, 121, 121))!important;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (max-width: 470px) {
+    body {
+        background: url("../images/bg-intro-mobile.png") center/cover fixed, linear-gradient(rgb(255, 121, 121), rgb(255, 121, 121))!important;
+    }
 }
 
 
