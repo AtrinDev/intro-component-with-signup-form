@@ -1,0 +1,231 @@
+/* fonts */
+
+@font-face {
+    font-family: 'Poppins regular';
+    font-weight: 400;
+    src: url('../fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins medium';
+    font-weight: 500;
+    src: url('../fonts/Poppins-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins semi-bold';
+    font-weight: 600;
+    src: url('../fonts/Poppins-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins bold';
+    font-weight: 700;
+    src: url('../fonts/Poppins-Bold.ttf');
+}
+
+
+/* global styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    min-width: 320px;
+}
+
+body {
+    min-height: 100vh;
+    background: url("../images/bg-intro-desktop.png") center/cover, linear-gradient(rgb(255, 121, 121), rgb(255, 121, 121));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* main section */
+
+.main-title {
+    font-family: 'Poppins bold', sans-serif;
+    font-size: 50px;
+    color: #FFF;
+}
+
+.main-info {
+    font-family: 'Poppins medium', sans-serif;
+    font-size: 16px;
+    color: #FFF;
+    margin-top: 2rem;
+}
+
+.side-info {
+    font-family: 'Poppins regular', sans-serif;
+    font-size: 15px;
+    color: #FFF;
+    background-color: #5E54A4;
+    padding: 1rem 3rem;
+    border-radius: 10px;
+    letter-spacing: 0.05rem;
+    box-shadow: 0 8px 0 rgba(0, 0, 0, 0.14);
+}
+
+.form {
+    background-color: #FFF;
+    margin-top: 1.5rem;
+    padding: 2.5rem 2.5rem 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 8px 0 rgba(0, 0, 0, 0.14);
+}
+
+.submit-form {
+    font-family: 'Poppins semi-bold', sans-serif;
+    font-size: 14px;
+    border: 2px solid #DEDEDE;
+    border-radius: 5px;
+    padding: 1.7rem 1.8rem;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 2.5rem;
+}
+
+.success-icon {
+    color: #2ECC71;
+    font-size: 24px;
+    position: absolute;
+    top: 1.1rem;
+    right: 1.7rem;
+    visibility: hidden;
+}
+
+.error-icon {
+    position: absolute;
+    top: 1.1rem;
+    right: 1.7rem;
+    visibility: hidden;
+}
+
+.message {
+    font-family: 'Poppins medium', sans-serif;
+    font-style: italic;
+    position: absolute;
+    right: 0.1rem;
+    font-size: 11px;
+    margin-top: 0.3rem;
+    visibility: hidden;
+}
+
+.success .submit-form {
+    border: 2px solid #2ECC71;
+}
+
+.error-message .submit-form {
+    border: 2px solid #FF7979;
+}
+
+.success .success-icon {
+    visibility: visible;
+}
+
+.error-message .error-icon {
+    visibility: visible;
+}
+
+.error-message .message {
+    color: #FF7979;
+    visibility: visible;
+}
+
+.error-message ::placeholder {
+    color: #FF7979;
+}
+
+::placeholder {
+    font-family: 'Poppins semi-bold', sans-serif;
+    font-size: 14px;
+    color: #3D3B48;
+}
+
+.submit-form:focus {
+    border-color: #5E54A4!important;
+    font-family: 'Poppins semi-bold', sans-serif;
+    font-size: 14px;
+    color: #2e2c36;
+    caret-color: #5E54A4;
+    box-shadow: none;
+}
+
+.submit-btn {
+    font-family: 'Poppins semi-bold', sans-serif;
+    font-size: 15px;
+    background-color: #38CC8B;
+    color: #FFF;
+    padding: 1rem 0;
+    letter-spacing: 0.1rem;
+    box-shadow: 0 -4px 0 rgba(0, 0, 0, 0.09) inset;
+    transition: all 0.3s linear;
+}
+
+.submit-btn:hover {
+    background-color: #77E2B3;
+    color: #FFF;
+}
+
+.terms {
+    font-family: 'Poppins medium', sans-serif;
+    font-size: 11px;
+    color: #BAB7D4;
+    padding-top: 0.8rem;
+}
+
+.strong-terms {
+    font-family: 'Poppins bold', sans-serif;
+    font-size: 11px;
+    color: #FF7979;
+    transition: all 0.3s linear;
+}
+
+.strong-terms:hover {
+    color: rgba(255, 121, 121, 0.7);
+    text-decoration: none;
+}
+
+@media screen and (max-width: 992px) {
+    .main-section {
+        margin: 3rem 0;
+    }
+    .main-title {
+        text-align: center;
+        font-size: 28px;
+    }
+    .main-info {
+        text-align: center;
+    }
+    .side-info {
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (max-width: 478px) {
+    .terms {
+        line-height: 2.2;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .form {
+        padding: 1.7rem 2rem 0.5rem;
+    }
+}
+
+.red {
+    border-color: #FF7979;
+}
+
+
+/* end of main section */
