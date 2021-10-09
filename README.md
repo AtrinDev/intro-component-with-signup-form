@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- GitHub URL: [GitHub Repository](https://your-solution-url.com)
-- Live Site URL: [GitHub Pages](https://your-live-site-url.com)
+- GitHub URL: [GitHub Repository](https://github.com/Atrin-Abbasian/intro-component-with-signup-form)
+- Live Site URL: [GitHub Pages](https://atrin-abbasian.github.io/intro-component-with-signup-form)
 
 ## My process
 
