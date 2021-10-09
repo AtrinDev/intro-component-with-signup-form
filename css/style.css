@@ -46,7 +46,7 @@ body {
     align-items: center;
 }
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 450px) {
     body {
         background: url("../images/bg-intro-mobile.png") center/cover fixed, linear-gradient(rgb(255, 121, 121), rgb(255, 121, 121))!important;
     }
