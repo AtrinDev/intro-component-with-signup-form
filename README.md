@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](design/form-validation.jpg)
+![](design/desktop-design.jpg)
 
 ### Links
 
