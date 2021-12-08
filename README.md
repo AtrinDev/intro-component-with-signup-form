@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - GitHub URL: [GitHub Repository](https://github.com/AtrinDev/intro-component-with-signup-form)
-- Live Site URL: [GitHub Pages](https://AtrinDev.github.io/intro-component-with-signup-form)
+- Live Site URL: [GitHub Pages](https://atrindev.github.io/intro-component-with-signup-form/)
 
 ## My process
 
